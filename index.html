@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Feix Agents — your own AI agent, for the work you'd rather skip</title>
+<meta name="description" content="Rent your own AI agent, configured for what you do. It handles the busywork. You stay in control. Manage it from your phone.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext y='26' font-size='26'%3E%F0%9F%A4%96%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="./assets/feix-agents.css?v=1">
+</head>
+<body>
+
+<header class="head">
+  <div class="wrap">
+    <a class="brand" href="#top">Feix<small>Agents</small></a>
+    <nav class="nav">
+      <a href="#agents">Agents</a>
+      <a href="#how">How it works</a>
+      <a href="#demo">Demo</a>
+      <button id="theme-toggle" class="btn btn-ghost btn-sm" aria-label="Theme">◐</button>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Feix Agents</p>
+      <h1>Hand the busywork to your own agent.</h1>
+      <p class="lede" style="margin-top:1rem">Configured for what you do. Simple, monthly, and yours. You stay in control.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#agents">See the agents</a>
+        <a class="btn btn-ghost" href="#demo">Try the demo</a>
+      </div>
+      <p class="reassure">No big upfront project. <b>Start small, rent one agent, add more when you are ready.</b> Cancel anytime.</p>
+    </div>
+  </section>
+
+  <hr class="filet">
+
+  <section>
+    <div class="wrap">
+      <div class="phone">
+        <div>
+          <p class="eyebrow">Manage it from your phone</p>
+          <h2>Your agent lives in your pocket.</h2>
+          <p class="muted">See what it did, approve an action, or change its mind, from your phone, wherever you are. Delegate the task, keep the control. No dashboard to learn, no computer to sit at.</p>
+        </div>
+        <div style="text-align:center"><div class="glyph">📱</div><p class="muted" style="margin-top:.6rem;font-size:.9rem">A message, a tap to approve. That is it.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="agents">
+    <div class="wrap">
+      <p class="eyebrow">Six agents</p>
+      <h2>Pick what you would rather not do yourself.</h2>
+      <p class="muted" style="max-width:52ch">Every business has a pile of small tasks a machine could handle. Hand them over. Keep your time for the work that actually needs you.</p>
+      <div class="agents" style="margin-top:1.6rem">
+        <div class="agent"><div class="ic">📦</div><h3>Your stock agent</h3><p>Watches your inventory so you do not have to. It flags what is running low, drafts the supplier order, and catches waste. You just say yes.</p><div class="ctrl">You stay in control</div></div>
+        <div class="agent"><div class="ic">📅</div><h3>Your bookings agent</h3><p>Takes appointments, confirms them, reminds your clients, and fills the gap when someone cancels. No more phone-tag.</p><div class="ctrl">You stay in control</div></div>
+        <div class="agent"><div class="ic">🎓</div><h3>Your trade assistant</h3><p>Knows your field, your products, and your way of working. Ask it anything and get an answer in seconds, not a search rabbit-hole.</p><div class="ctrl">You stay in control</div></div>
+        <div class="agent"><div class="ic">🛰️</div><h3>Your machines agent</h3><p>Keeps an eye on your equipment and sensors. It warns you before something fails and logs everything, so a breakdown never catches you off guard.</p><div class="ctrl">You stay in control</div></div>
+        <div class="agent"><div class="ic">✉️</div><h3>Your inbox agent</h3><p>Sorts what matters, drafts replies in your voice, and never sends without your okay.</p><div class="ctrl">You stay in control</div></div>
+        <div class="agent"><div class="ic">💬</div><h3>Your front-desk agent</h3><p>Answers your customers routine questions, day and night, and hands you the ones that need a human.</p><div class="ctrl">You stay in control</div></div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="filet">
+
+  <section id="how">
+    <div class="wrap">
+      <p class="eyebrow">How it works</p>
+      <h2>Set up in an afternoon, not a quarter.</h2>
+      <div class="steps" style="margin-top:1.4rem">
+        <div class="card step"><div class="n">1</div><h3>Tell it your purpose</h3><p class="muted">Pick a ready agent or describe what you need. We set it up with you, no jargon.</p></div>
+        <div class="card step"><div class="n">2</div><h3>It learns your world</h3><p class="muted">Your products, your notes, your tools. The agent works the way you already do.</p></div>
+        <div class="card step"><div class="n">3</div><h3>Use it, approve what matters</h3><p class="muted">It does the routine on its own. Anything that touches money, stock or a customer waits for your okay.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="demo">
+    <div class="wrap">
+      <p class="eyebrow" style="text-align:center">A real conversation</p>
+      <h2 style="text-align:center">Meet a stock agent.</h2>
+      <div class="demo" style="margin-top:1.4rem">
+        <div class="bar"><span class="dot">📦</span><b>Your stock agent</b><span class="live">DEMO</span></div>
+        <div class="chat" id="chat"></div>
+        <div class="approve" id="approve"></div>
+      </div>
+      <p class="note-demo">Scripted preview. It watches, it drafts, it waits for your yes. Nothing leaves without you.
+        <br><button id="demo-start" class="btn btn-ghost btn-sm" style="margin-top:.6rem">Replay</button></p>
+    </div>
+  </section>
+
+  <hr class="filet">
+
+  <section>
+    <div class="wrap">
+      <div class="price">
+        <p class="eyebrow" style="justify-self:center">Simple pricing</p>
+        <p class="big">A small monthly rental. Start with one agent.</p>
+        <p class="muted" style="max-width:46ch;margin:.6rem auto 0">No large upfront build, no long contract. Add agents or tools when you are ready. If it does not earn its keep, cancel.</p>
+        <a class="btn btn-primary" href="#demo" style="margin-top:1.2rem">See it work</a>
+      </div>
+      <div class="trust">
+        <div class="t"><b>You approve</b>Nothing touching money, stock or a customer runs without your okay.</div>
+        <div class="t"><b>Your data, in Europe</b>Your information stays yours, hosted in the EU.</div>
+        <div class="t"><b>See everything</b>A clear log of what your agent did, and why.</div>
+        <div class="t"><b>Cancel anytime</b>Monthly, no lock-in. Keep it only while it helps.</div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p><span class="brand" style="font-size:1.05rem">Feix<small>Agents</small></span> &nbsp; Custom systems and agents. From brief to live product.</p>
+    <p class="muted"><span class="badge">prototype</span> &nbsp; Simple, local, human-scale. You stay in control.</p>
+  </div>
+</footer>
+
+<script src="./assets/feix-agents.js?v=1"></script>
+</body>
+</html>
