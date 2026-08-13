@@ -1,5 +1,5 @@
-# Feix Agents
+# Feix (unified preview)
 
-Rent your own AI agent, configured for what you do. It handles the busywork; you stay in control. Manage it from your phone.
+One Feix page, two modes shown as equal peers: Custom Systems (a working system built to your brief, evaluated before you pay) and Agents (rent a computational agent for one recurring job, approve what matters, manage from your phone).
 
-Prototype vitrine (approachable, trustworthy). Six agents: stock, bookings, trade assistant, machines, inbox, front-desk. Live stock-agent demo is scripted for now.
+Design language decided jointly by GPT and Gemini: warm-paper light default, one green-teal identity, Fraunces + DM Sans + JetBrains Mono, amber reserved for approval, an operations-ledger centrepiece. Preview of the future feix.app. Self-contained single file.
